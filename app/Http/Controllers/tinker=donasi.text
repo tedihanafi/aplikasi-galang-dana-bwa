@@ -1,0 +1,9 @@
+$donatur = new App\Models\Donatur();
+$donatur->total_amount = 2000000;
+$donatur->is_paid = false;
+$donatur->fundraising_id = 17;
+$donatur->notes = 'semoga hutan mangrovenya lebat';
+$donatur->phone_number = '0895333669953';
+$donatur->name = 'mahasiswa untara';
+$donatur->proof = 'proof/bukti-palsu.png';
+$donatur->save();
